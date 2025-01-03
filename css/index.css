@@ -78,7 +78,7 @@ body {
 /* Media Query untuk Layar Kecil (Max 768px) */
 @media (max-width: 768px) {
     body{
-        background-size: 414px;
+        background-size: 390px;
     }
 
     .logo-container {
