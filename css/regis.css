@@ -1,0 +1,63 @@
+body {
+    background-image: url('../image/background.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;   
+}
+
+.content {
+    backdrop-filter: blur(5px);
+}
+
+
+@media (max-width: 768px) {
+    body {
+        background-size: 414px;
+    }
+
+    .pendaftaran-container {
+        display: inline-flex;
+        margin: 240px 0 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .pendaftaraan {
+        border: 2px solid #246e21;
+        display: flex;
+        border-radius: 20px;
+    }
+
+    .pendaftaraan a{
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        width: 150px;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        color: #246e21;
+    }
+
+    .container {
+        margin: 20px 0 0 0;
+        text-align: center;
+    }
+
+    .container img {
+        width: 85px;
+        max-width: 85px;
+    }
+
+    .prize { 
+        margin: 20px 0 0 0;
+    }
+}
