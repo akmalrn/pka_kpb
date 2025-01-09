@@ -1,5 +1,5 @@
 body {
-    background-image: url('../image/background.jpg');
+    background-image: url('../image/background_home.jpg');
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
@@ -39,7 +39,7 @@ body {
 }
 
 .center-container div {
-    margin: 20px 0;
+    margin: 15px 0;
 }
 
 .center-container a {
@@ -78,11 +78,11 @@ body {
 /* Media Query untuk Layar Kecil (Max 768px) */
 @media (max-width: 768px) {
     body{
-        background-size: 390px;
+        background-size: 400px;
     }
 
     .logo-container {
-        margin: 220px 0 0 0;
+        margin: 205px 0 0 0;
     }
 
     .logo-container img {
@@ -107,7 +107,7 @@ body {
     }
 
     footer {
-        margin: 175px 0px 0px 0px;
+        margin: 190px 0px 0px 0px;
         text-align: center;
     }
 
